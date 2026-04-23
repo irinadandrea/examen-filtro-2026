@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<!-- Error: falta atributo lang -->
-<html>
+<<!DOCTYPE html>
+<html lang="es">
 <head>
-  <!-- Error: falta meta viewport (sitio no es responsive) -->
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zara Darkbane — Chronicles of Code</title>
+</head>
+<body>
 
-  <!-- Error: estilos embebidos en lugar de archivo externo -->
-  <style>
+
+
     body {
       font-family: Georgia, serif;
       margin: 0;
@@ -181,47 +182,54 @@
 <body>
 
   <!-- Error: div en lugar de header -->
-  <div class="header">
+  <header>
     <!-- Error: div en lugar de nav -->
-    <div class="nav">
+    <nav>
       <span class="logo">Chronicles of Code</span>
-      <!-- Error: div en lugar de ul/li para lista de navegación -->
-      <div class="nav-links">
-        <a href="#personaje">Personaje</a>
-        <a href="#stats">Stats</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#desafio">Desafiar</a>
-      </div>
+     <ul>
+  <li><a href="#personaje">Personaje</a></li>
+  <li><a href="#stats">Stats</a></li>
+  <li><a href="#habilidades">Habilidades</a></li>
+  <li><a href="#desafio">Desafiar</a></li>
+</ul>
     </div>
-  </div>
+  </nav>
+</header>
 
   <!-- Error: div en lugar de main -->
-  <div class="main">
+  <main>
 
     <!-- Error: div en lugar de section -->
-    <div class="hero" id="personaje">
+    <section id="personaje" class="hero">
       <!-- Error: img sin atributo alt -->
-      <img src="https://picsum.photos/seed/zara/120/120" class="avatar">
+     <img src="..." alt="Avatar de Zara Darkbane">
       <div class="hero-text">
         <!-- Error: div en lugar de h1 -->
-        <div class="hero-title" style="font-size: 2.5rem; font-weight: bold; color: #e94560;">Zara Darkbane</div>
-        <div class="class-badge">Hechicera</div>
+        <h1>
+  Zara Darkbane
+  <span class="class-badge">Hechicera</span>
+</h1>
         <!-- Error: div en lugar de p -->
-        <div class="hero-bio" style="margin-top: 16px; max-width: 600px;">
+</p>
           Invocadora de los planos oscuros, Zara domina el arte de la destrucción arcana.
           Sus hechizos pueden desintegrar escudos mágicos y paralizar a los enemigos más poderosos.
           Busca rivales que se atrevan a desafiarla.
-        </div>
-        <!-- Error: div en lugar de dl/dt/dd para lista de definición -->
-        <div class="hero-meta" style="margin-top: 20px;">
-          <div style="margin-bottom: 6px;"><span style="color: #e94560;">Nivel:</span> 7</div>
-          <div style="margin-bottom: 6px;"><span style="color: #e94560;">Alineación:</span> Neutral Maligna</div>
+        <dl class="hero-meta">
+       <dt>Clase:</dt>
+<dd>Hechicera</dd>
+
+<dt>Nivel:</dt>
+<dd>7</dd>
+
+<dt>Origen:</dt>
+<dd>Torre de Sombras</dd>
+          <section id="stats" class="stats-section"></section>
           <div><span style="color: #e94560;">Origen:</span> Torre de los Arcanos</div>
-        </div>
+        <h2 class="section-title">
       </div>
     </div>
-
-    <!-- Error: div en lugar de section -->
+<div class="stats-grid">
+  <article class="stat-card">
     <div class="stats-section" id="stats">
       <!-- Error: div en lugar de h2 -->
       <div class="section-title">Stats de Combate</div>
