@@ -126,3 +126,53 @@
   - ¿Cambiarías la forma en que le pedís cosas a la IA la próxima vez? ¿Por qué?
 -->
 ```
+## IA_HISTORY.md — Registro de Uso de IA
+
+**Alumno/a:** Irina Dandrea  
+**Fecha:** 23/04/2026  
+
+---
+
+## Prompt 1
+
+### Momento del proceso
+
+Cuando estaba corrigiendo la estructura HTML, especialmente al momento de reemplazar los `<div>` por etiquetas semánticas y no sabía exactamente cuáles usar en cada caso.
+
+### Lo que le pedí a la IA
+
+"cómo reemplazar div por etiquetas semánticas en html como header main section footer y nav"
+
+### Análisis del resultado obtenido
+
+La IA propuso reemplazar los `<div>` por etiquetas semánticas como `<header>`, `<main>`, `<section>` y `<footer>`. El enfoque fue correcto en general porque apuntaba a mejorar la estructura del documento y la accesibilidad. Sin embargo, en algunos casos no tuvo en cuenta el contexto específico de cada bloque, como la navegación o listas. Me resultó útil como guía inicial para entender qué etiquetas debía usar.
+
+### Qué debí corregir manualmente y por qué
+
+Tuve que corregir la navegación porque la IA sugería mantener `<div>` en lugar de usar `<nav>` y listas con `<ul>` y `<li>`. Detecté esto al revisar la consigna del examen y notar que pedía específicamente estructuras semánticas correctas. Técnicamente es incorrecto usar `<div>` para navegación porque `<nav>` tiene un significado semántico claro y mejora la accesibilidad. También corregí etiquetas como `<h1>` y `<p>` que inicialmente estaban mal estructuradas o no estaban cerradas correctamente.
+
+---
+
+## Prompt 2
+
+### Momento del proceso
+
+Cuando estaba creando los estilos CSS y necesitaba aplicar layout moderno con Grid y Flexbox según la consigna.
+
+### Lo que le pedí a la IA
+
+"ejemplo de css con grid para layout y flexbox para navbar"
+
+### Análisis del resultado obtenido
+
+La IA generó un ejemplo de CSS utilizando `display: grid` para la estructura principal y `display: flex` para la navegación. El enfoque fue correcto porque respondía directamente a lo pedido en la consigna. El resultado fue útil como base para implementar rápidamente un layout funcional. Sin embargo, algunos valores eran genéricos y no estaban adaptados al diseño específico del proyecto.
+
+### Qué debí corregir manualmente y por qué
+
+Tuve que ajustar colores y algunos tamaños porque la IA no consideraba el contraste requerido por accesibilidad (WCAG). Detecté esto al leer la consigna y ver los comentarios de error en el CSS original. Técnicamente, un contraste bajo dificulta la lectura, por lo que modifiqué colores para mejorar la visibilidad. También adapté las clases a las que ya existían en el HTML para que el CSS funcione correctamente.
+
+---
+
+## Reflexión final
+
+La IA repitió errores relacionados con el uso genérico de etiquetas y no siempre respetó completamente la semántica correcta del HTML. Sin embargo, fue muy útil para dar una base rápida tanto en HTML como en CSS. Me ayudó especialmente a entender cómo estructurar el layout con Grid y Flexbox. La próxima vez intentaría hacer prompts más específicos, indicando mejor el contexto del proyecto, para obtener resultados más precisos desde el principio.
